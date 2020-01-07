@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NotImdb</string>
+    <string name="cast">Cast</string>
+    <string name="info">Info</string>
+    <string name="game_of_thrones">Game of Thrones</string>
+    <string name="breaking_bad">breaking bad</string>
+    <string name="breaking_bad_str">Breaking Bad</string>
+    <string name="game_of_thrones_str">Game of Thrones</string>
+    <string name="todo">TODO</string>
+    <string name="releade_date">Releade Date</string>
+    <string name="original_date">Original Date</string>
+    <string name="seasons">Seasons</string>
+    <string name="release_date">Release Date</string>
+    <string name="language">Language</string>
+    <string name="original_title">Original Title</string>
+</resources>

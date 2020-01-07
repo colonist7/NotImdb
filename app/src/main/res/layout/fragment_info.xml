@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#111"
+    android:layout_height="match_parent"
+    tools:context=".DetaildInfo.InfoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/infoImg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            app:layout_constraintBottom_toTopOf="@id/info1"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/infoImg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/infoImg"
+            app:layout_constraintBottom_toTopOf="@+id/info2">
+
+            <TextView
+
+                android:textColor="#fff"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/original_title" />
+
+            <TextView
+                android:id="@+id/originalTitle"
+                android:textColor="#ccc"
+                android:gravity="end"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="aasfghsdfghjksdfghjk" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info1"
+            app:layout_constraintBottom_toTopOf="@+id/info3">
+
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/release_date" />
+
+            <TextView
+                android:id="@+id/releaseDate"
+                android:textColor="#ccc"
+                android:gravity="end"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="aasfghsdfghjksdfghjk" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info2"
+            app:layout_constraintBottom_toTopOf="@+id/info4">
+
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="#fff"
+                android:text="@string/language" />
+
+            <TextView
+                android:id="@+id/lang"
+                android:textColor="#ccc"
+                android:gravity="end"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="aasfghsdfghjksdfghjk" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="30dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info3">
+
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/seasons" />
+
+            <TextView
+                android:id="@+id/seasons"
+                android:textColor="#ccc"
+                android:gravity="end"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="aasfghsdfghjksdfghjk" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
